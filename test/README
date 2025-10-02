@@ -1,0 +1,25 @@
+# TwoLED_OneButton
+
+Dự án điều khiển hai LED bằng một nút nhấn sử dụng thư viện OneButton trên PlatformIO.
+
+## Chức năng
+
+- **Single click:** Bật/tắt LED đang điều khiển
+- **Double click:** Chuyển đổi điều khiển giữa LED1 và LED2
+- **Long press:** LED đang điều khiển nhấp nháy 200ms
+
+## Phần cứng
+
+- LED1: LED tích hợp trên devboard
+- LED2: LED gắn ngoài, GPIO 5
+- Nút bấm: GPIO 4, pull-up
+
+## Thư viện
+
+- OneButton: https://github.com/mathertel/OneButton
+
+## Cài đặt
+
+1. Tải dự án về PlatformIO
+2. Build & Upload
+3. Thử nghiệm các chức năng nhấn nút
